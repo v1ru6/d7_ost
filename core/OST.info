@@ -1,0 +1,21 @@
+; $Id: ost.info.v 1.0 2015/06/02 11:00 vpandichi Exp 6
+name = OST
+package = OST
+version = VERSION
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = template.css
+
+regions[content_header] = Content Header
+regions[logo] = Logo
+regions[slideshow] = Slideshow
+regions[content] = Content
+regions[content_footer] = Content Footer
+regions[sidebar_left] = Sidebar Left
+regions[sidebar_right] = Sidebar Right
+regions[content_right] = Content Right
+regions[content_left] = Content Left
+regions[sub_footer] = Sub Footer
+regions[help] = Help
+regions[inline] = Inline

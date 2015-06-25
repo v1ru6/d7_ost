@@ -1,0 +1,75 @@
+* {margin:0;padding:0;}
+
+#header-wrap,
+#nav-wrap,
+#body-wrap,
+#sub-footer-wrap,
+#footer-wrap {float:left;width:100%;clear:both;}
+
+#header,
+#nav,
+#body,
+#sub-footer,
+#footer {width:80%;margin:0 auto;font-family:"Trebuchet MS", arial, verdana, sans-serif;}
+
+#nav-wrap {height:32px;background:#2c2c2c url(/sites/thenewboston/sites/all/themes/thenewboston/files/images/bg-nav.png) repeat-x;border-top:1px solid #aaaaab;border-bottom:1px solid #040404; box-shadow:1px 1px 2px #444;position:fixed;opacity:0.9;}
+
+#body {background: #fff;overflow: hidden;border: 1px solid #dddddd; box-shadow: 1px 1px 2px #dddddd;}
+#body-wrap {background:url(/sites/thenewboston/sites/all/themes/thenewboston/files/images/bg-body.png) repeat-x;}
+
+#img {padding:10px 0 10px 55px;}
+
+#page-left-wrap {float: left;background: #242322 url(/sites/thenewboston/sites/all/themes/thenewboston/files/images/bg-sidebar-left.png) repeat-x;width:20%; height:700px;}
+#page-right-wrap {float: left;background: #fff;width:78%;margin: 10px;}
+#content-left-wrap{float: left;background: #f6f6f6;width:48%;margin: 10px;border:1px solid #e8e8e8;}
+#content-right-wrap{float: left;background: #f6f6f6;width:47%;margin:10px;}
+
+#content-right {display: block;padding:10px;}
+#content-left {display: block;padding:10px;}
+
+#content-left img {padding-bottom: 10px;}
+
+/*
+***********************
+* =nav styles
+***********************
+*/
+
+#nav li {list-style-type:none;display:inline;}
+#nav a {float: left;text-decoration:none;font-size:14px;color:#fff;padding: 7px 10px 9px 10px; border-left:1px solid #1a1a1a;font-family:"Trebuchet MS",Verdana,Arial;}
+#nav li:last-child {border-right:1px solid #1a1a1a;}
+#nav a:hover {color:#fff;background:url(/sites/thenewboston/sites/all/themes/thenewboston/files/images/bg-nav-active.png) repeat-x;}
+
+/*
+***********************
+* =content-left
+***********************
+*/
+
+.content img#heart {background:#9b59b6;margin: 5px 5px;}
+.content img#graph {background:#27ae60;margin: 5px 5px;}
+.content img#computer {background:#2980b9;margin: 5px 5px;}
+.content img#bacon {background:#8e44ad;margin: 5px 5px;}
+.content img#book {background:#d35400;margin: 5px 5px;}
+.content img#math {background:#c0392b;margin: 5px 5px;}
+.content img#science {background:#16a085;margin: 5px 5px;}
+.content img#globe {background:#27ae60;margin: 5px 5px;}
+.content img#forum {background:#2980b9;margin: 5px 5px;}
+.content img#signup {background:#934cb0;margin: 5px 5px;}
+
+div#link-text1 {float:right;margin-right:130px;margin-top:9px;font-size: 15px;color:#eeeded;font-weight: bold;}
+div#link-text2 {float:right;margin-right:120px;margin-top:9px;font-size: 15px;color:#eeeded;font-weight: bold;}
+div#link-text3 {float:right;margin-right:80px;margin-top:9px;font-size: 15px;color:#eeeded;font-weight: bold;}
+div#link-text4 {float:right;margin-right:125px;margin-top:9px;font-size: 15px;color:#eeeded;font-weight: bold;}
+div#link-text5 {float:right;margin-right:101px;margin-top:9px;font-size: 15px;color:#eeeded;font-weight: bold;}
+div#link-text6 {float:right;margin-right:145px;margin-top:9px;font-size: 15px;color:#eeeded;font-weight: bold;}
+div#link-text7 {float:right;margin-right:123px;margin-top:9px;font-size: 15px;color:#eeeded;font-weight: bold;}
+div#link-text8 {float:right;margin-right:72px;margin-top:9px;font-size: 15px;color:#eeeded;font-weight: bold;}
+div#link-text9 {float:right;margin-right:133px;margin-top:9px;font-size: 15px;color:#eeeded;font-weight: bold;}
+div#link-text10 {float:right;margin-right:49px;margin-top:9px;font-size: 15px;color:#eeeded;font-weight: bold;}
+
+#logo-wrap {background:url(/sites/thenewboston/sites/all/themes/thenewboston/files/images/bg-body.png) repeat-x;border:none;}
+#logo {width:80%;margin:5px auto;padding-top: 45px;border:none;}
+
+#footer {text-align: center;padding: 5px;}
+#footer a {text-decoration: none;color: #693339; font-size:13px;}
